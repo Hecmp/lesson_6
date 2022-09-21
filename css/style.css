@@ -1,0 +1,269 @@
+/* <==========================Подключаем шрифты=================================> */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+
+/*<================================= Обнуление стилей ================================>*/
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+
+a {
+	color:inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+textarea{
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+body{
+	line-height: 1;
+	font-family: "Lato";
+	font-weight: 400;
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 40px 10px 20px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 50px 1px  #000;
+	border-radius: 5px;
+	line-height: 25px;
+	color: #424551;
+}
+
+
+.container{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+/*<================================= Header Block ================================>*/
+
+.header {
+	font-size: 80px;
+	letter-spacing: 10px;
+	text-align: center;
+	border: 5px solid rgb(68, 13, 221);
+	border-radius: 75% 25% 64% 36% / 70% 43% 57% 30%;
+	padding: 10px;
+	color:#fff;
+	text-shadow: 5px 5px #000;
+	background-color: rgb(23, 165, 230);
+	margin-bottom: 50px;
+}
+
+.nav-tab{
+	border: 5px solid #000;
+	background-color: rgb(96, 156, 188);
+	border-radius: 5px ;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 120px;
+	padding: 20px;
+	font-family: monospace;
+}
+
+.link-1{
+	margin-right: 80px;
+	border-radius: 17% 83% 20% 80% / 28% 43% 57% 72%;
+	padding: 15px;
+	line-height: 20px;
+}
+.link-1:focus{
+	outline: 5px dashed rgb(6, 189, 9);
+	background-color: rgb(112, 49, 190);
+}
+
+.link-2{
+	margin-right: 80px;
+	border-radius: 56% 44% 65% 35% / 35% 61% 39% 65%;
+	padding: 15px;
+	line-height: 20px;
+}
+
+.link-2:focus{
+	outline: 5px dotted rgb(109, 12, 206);
+	background-color: rgb(21, 144, 52);
+}
+
+.link-3{
+	border-radius: 56% 44% 65% 35% / 35% 14% 86% 65%;
+	padding: 15px;
+	line-height: 20px;
+}
+
+.link-3:focus{
+	outline: 5px double rgb(208, 11, 132);
+	background-color: rgb(149, 209, 19);
+}
+
+/*<================================= Main Block ================================>*/
+
+h1{
+	font-size: 46px;
+	font-weight: 900;
+	margin-bottom: 80px;
+	line-height: 60px;
+}
+
+.img-content{
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+
+.bold{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+.first-text{
+	margin-bottom: 20px;
+}
+.two-paragraph{
+	margin-bottom: 50px;
+}
+
+
+.extract{
+	padding-left: 60px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.list{
+	margin-bottom: 25px;
+}
+
+li  {
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
+.list-text{
+	margin-bottom: 25px;
+}
+
+.lust-text{
+	margin-bottom: 60px;
+}
+
+
+/*<================================= FOOTER Block ================================>*/
+
+.footer{
+	font-size: 80px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+/*<=================================  Block ================================>*/
+
+h2{
+	font-weight: 900;
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #0a33d7;
+	opacity: 0.3;
+}
+
+
+.some-text{
+	max-width: 300px;
+	max-height: 100px;
+	overflow: scroll;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #7286d5;
+	color:#fff;
+	margin-bottom: 80px;
+}
+
+.exemple{
+	border: 2px solid #000;
+	border-radius: 50%;
+	max-width: 400px;
+	min-height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(180deg, rgb(10, 16, 47), rgb(79, 36, 189), rgb(205, 236, 22));
+	background: -moz-linear-gradient(180deg, rgb(10, 16, 47), rgb(79, 36, 189), rgb(205, 236, 22));
+	background: linear-gradient(180deg, rgb(10, 16, 47), rgb(79, 36, 189), rgb(205, 236, 22));;
+	box-shadow: 10px 10px 10px 10px rgb(177, 67, 12) , -10px -10px 10px 10px rgb(202, 10, 10);
+	margin-bottom: 40px;
+}
+
+.exemple span{
+	display: inline-block;
+	padding-top: 48%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	
+}
+
+.bottom{
+	display: inline-block;
+	background-color: #0a33d7;
+	padding: 15px;
+	color: #7286d5;
+	border-radius: 25px;
+	box-shadow: 0 5px 0 #000;
+	margin-bottom: 40px;
+	margin-left: 450px;
+	transition: all 0.3s ease 0s;
+}
+
+.bottom:hover{
+	margin-top: 3px;
+	background-color: #6577c1;
+	box-shadow: 0 2px 0 #000;
+	color:#fff;
+}
+	
